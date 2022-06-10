@@ -1,17 +1,19 @@
 {
-    "name": "doggo",
-    "version": "1.0.0",
-    "description": "doggo competition",
-    "main": "index.js",
-    "scripts": {
-      "start": "nodemon index.js",
-      "test": "mocha index.js"
-    },
-    "author": "2kjen",
-    "license": "ISC",
-    "dependencies": {
-      "chai": "^4.3.6",
-      "mocha": "^10.0.0",
-      "nodemon": "^2.0.16"
-    }
+  "name": "doggo",
+  "version": "1.0.0",
+  "description": "doggo competition",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "mocha index.js --reporter=nyan --exit",
+    "coverage": "nyc npm test"
+  },
+  "author": "2kjen",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.6",
+    "mocha": "^10.0.0",
+    "nodemon": "^2.0.16",
+    "nyc": "^15.1.0"
   }
+}
