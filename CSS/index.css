@@ -1,0 +1,24 @@
+#myID {
+    color: orange;
+}
+
+p.heading {
+    color: black;
+}
+
+p,
+h1 {
+    color: red;
+}
+
+body {
+    color: green;
+}
+
+footer h6 {
+    color: red;
+}
+
+footer > h6 {
+    color: blue;
+}
