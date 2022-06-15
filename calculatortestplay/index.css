@@ -3,44 +3,68 @@
     margin: 0;
     box-sizing: border-box;
 }
-html{
-    font-family: 'ariel';
-}
+
 section{
-    background-color: rgb(23, 142, 172);
-    min-height: 100vh;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+ background-color: rgb(23, 142, 172);
+ min-height: 100vh;
+ width: 100%;
+ display: flex;
+align-items: center;
+justify-content: center;
 }
 .container{
 width: 90%;
 max-width: 400px;
-background-color: rgb(11, 14, 192);
+background-color:royalblue;
 border-radius: 8px;
 overflow: hidden;
 }
 .display{
-background-color: rgb(172, 172, 172)
+background-color: white;
 height: 100px;
-width: 100px;
+width: 400px;
 text-align: right;
-padding: 20px;
+padding: 30px;
 font-size: 30px;
 position: relative;
 }
 .display-1{
 opacity: .4;
 font-size: 20px;
-height: 20px;
+height: 30px;
 overflow: hidden;
 }
 
 .temp-result{
 position: absolute;
 bottom: 0;
-left: 0;
-font-size: 20px;
-opacity: .4;
+left: 10;
+font-size: 30px;
+opacity: .5;
+}
+
+.all_buttons{
+color: white;
+display: grid;
+grid-template: repeat(4, 1fr) / repeat(4, 1fr);
+}
+
+.button{
+border: .10px solid rgb(172, 172, 172); 
+display: inline-block;
+height: 100px;
+width: 40%;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 40px;
+cursor: pointer;
+}
+
+.button:hover{
+    background-color: rgb(11, 14, 192);
+}
+
+.btn-0{
+grid-column: 1/3;    
 }
