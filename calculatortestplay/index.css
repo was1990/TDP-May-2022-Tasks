@@ -47,10 +47,11 @@ opacity: .4;
 color: white;
 display: grid;
 grid-template: repeat(4, 1fr) / repeat(4, 1fr);
+grid-gap: 0px;
 }
 
 .button{
-border: .10px solid rgb(172, 172, 172); 
+border: .20px solid rgb(172, 172, 172); 
 display: inline-block;
 height: 100px;
 width: 40%;
